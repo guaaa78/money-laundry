@@ -198,9 +198,9 @@ public class LaundryKiosk {
         System.out.println("  ┌────────────────────────────────────────┐");
         System.out.println("  │         GCASH PAYMENT DETAILS          │");
         System.out.println("  ├────────────────────────────────────────┤");
-        System.out.printf("  │  GCash Number : %-23s │%n", GCASH_NUMBER);
-        System.out.printf("  │  Amount to Pay: PHP %-19.2f │%n", order.total);
-        System.out.printf("  │  Order ID     : %-23s │%n", order.orderId);
+        System.out.printf("  │  GCash Number : %-23s│%n", GCASH_NUMBER);
+        System.out.printf("  │  Amount to Pay: PHP %-19.2f│%n", order.total);
+        System.out.printf("  │  Order ID     : %-23s1│%n", order.orderId);
         System.out.println("  ├────────────────────────────────────────┤");
         System.out.println("  │  1. Open GCash app                     │");
         System.out.println("  │  2. Send PHP to the number above       │");
